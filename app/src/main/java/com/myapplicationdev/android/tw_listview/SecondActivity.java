@@ -43,10 +43,6 @@ public class SecondActivity extends AppCompatActivity {
             lv.setAdapter(adapter);
         }
 
-
-
     }
-
-
 
 }

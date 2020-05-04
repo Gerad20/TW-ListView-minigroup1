@@ -32,6 +32,7 @@ public class ModuleAdapter extends ArrayAdapter<Module> {
         ivModule = (ImageView)rowView.findViewById(R.id.ivModule);
 
         Module currentmodule = Module.get(position);
+
         tvModule.setText(currentmodule.getName());
         ivModule.setImageResource(currentmodule.getImage());
 
